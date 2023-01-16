@@ -2123,6 +2123,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		@media (max-width: 480px) {
+			.image.left, .image.right {
+				max-width: 60%;
+			}
+		}
+
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
